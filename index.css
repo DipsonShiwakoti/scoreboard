@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+
+body {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 1B244A;
+    font-family: poppins;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding:5%;
+}
+
+h3 {
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+p {
+    margin: 0 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 5rem;
+    color: F94F6D;
+    padding: 2rem;
+    width: 8rem;
+    background-color: black;
+}
+
+.score_btn {
+    cursor: pointer;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: transparent;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 2rem;
+    border: 5px solid #9AABD8;
+    color: 9AABD8;
+    border-radius: 10px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.reset_btn {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: transparent;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 2rem;
+    border: 5px solid #9AABD8;
+    color: 9AABD8;
+    border-radius: 10px;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: white;
+    border: 5px solid #9AABD8;
+    border-radius: 15px;
+    padding: 2rem;
+    font-size: 5rem;
+}
+
+.start_btn {
+    margin: 1rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: 5px solid #9AABD8;
+    border-radius: 10px;
+
+}
+
+#error {
+    font-size: 1rem;
+    font-family: poppins;
+    color: red;
+}
